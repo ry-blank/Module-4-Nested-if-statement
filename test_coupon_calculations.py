@@ -44,44 +44,44 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(coupon_calculations.calculate_price(25.50, 10.00, .20), 21.09)
 
     # # Test Set3
-    #
-    # def test_thirty_up_to_fifty_test1(self):
-    #     self.assertEqual(coupon_calculations.calculate_price(42.50, 5.00, .10), 43.73)
-    #
-    # def test_thirty_up_to_fifty_test2(self):
-    #     self.assertEqual(coupon_calculations.calculate_price(40.50, 5.00, .15), 39.94)
-    #
-    # def test_thirty_up_to_fifty_test3(self):
-    #     self.assertEqual(coupon_calculations.calculate_price(38.50, 5.00, .20), 36.36)
-    #
-    # def test_thirty_up_to_fifty_test4(self):
-    #     self.assertEqual(coupon_calculations.calculate_price(42.50, 10.00, .10), 38.95)
-    #
-    # def test_thirty_up_to_fifty_test5(self):
-    #     self.assertEqual(coupon_calculations.calculate_price(40.50, 10.00, .15), 35.43)
-    #
-    # def test_thirty_up_to_fifty_test6(self):
-    #     self.assertEqual(coupon_calculations.calculate_price(38.50, 10.00, .20), 32.12)
-    #
+
+    def test_thirty_up_to_fifty_test1(self):
+        self.assertEqual(coupon_calculations.calculate_price(42.50, 5.00, .10), 43.73)
+
+    def test_thirty_up_to_fifty_test2(self):
+        self.assertEqual(coupon_calculations.calculate_price(40.50, 5.00, .15), 39.94)
+
+    def test_thirty_up_to_fifty_test3(self):
+        self.assertEqual(coupon_calculations.calculate_price(38.50, 5.00, .20), 36.36)
+
+    def test_thirty_up_to_fifty_test4(self):
+        self.assertEqual(coupon_calculations.calculate_price(42.50, 10.00, .10), 38.95)
+
+    def test_thirty_up_to_fifty_test5(self):
+        self.assertEqual(coupon_calculations.calculate_price(40.50, 10.00, .15), 35.43)
+
+    def test_thirty_up_to_fifty_test6(self):
+        self.assertEqual(coupon_calculations.calculate_price(38.50, 10.00, .20), 32.12)
+
     # # Test Set4
-    #
-    # def test_fifty_or_over_test1(self):
-    #     self.assertEqual(coupon_calculations.calculate_price(75.00, 5.00, .10), 74.73)
-    #
-    # def test_fifty_or_over_test2(self):
-    #     self.assertEqual(coupon_calculations.calculate_price(75.00, 5.00, .15), 71.02)
-    #
-    # def test_fifty_or_over_test3(self):
-    #     self.assertEqual(coupon_calculations.calculate_price(75.00, 5.00, .20), 67.31)
-    #
-    # def test_fifty_or_over_test4(self):
-    #     self.assertEqual(coupon_calculations.calculate_price(75.00, 10.00, .10), 69.96)
-    #
-    # def test_fifty_or_over_test5(self):
-    #     self.assertEqual(coupon_calculations.calculate_price(75.00, 10.00, .15), 66.52)
-    #
-    # def test_fifty_or_over_test6(self):
-    #     self.assertEqual(coupon_calculations.calculate_price(75.00, 10.00, .20), 63.07)
+
+    def test_fifty_or_over_test1(self):
+        self.assertEqual(coupon_calculations.calculate_price(75.00, 5.00, .10), 74.73)
+
+    def test_fifty_or_over_test2(self):
+        self.assertEqual(coupon_calculations.calculate_price(75.00, 5.00, .15), 71.02)
+
+    def test_fifty_or_over_test3(self):
+        self.assertEqual(coupon_calculations.calculate_price(75.00, 5.00, .20), 67.31)
+
+    def test_fifty_or_over_test4(self):
+        self.assertEqual(coupon_calculations.calculate_price(75.00, 10.00, .10), 69.96)
+
+    def test_fifty_or_over_test5(self):
+        self.assertEqual(coupon_calculations.calculate_price(75.00, 10.00, .15), 66.52)
+
+    def test_fifty_or_over_test6(self):
+        self.assertEqual(coupon_calculations.calculate_price(75.00, 10.00, .20), 63.07)
 
 
 if __name__ == '__main__':
